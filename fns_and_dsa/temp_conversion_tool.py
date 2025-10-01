@@ -13,7 +13,7 @@ while True:
         temperature = float(input("Enter the temperature to convert:"))
         break
     except ValueError:
-        print("Enter a valid number")
+        print("Invalid temperature. Please enter a numeric value.")
 
 choice = input("Is this temperature in Celsius or Fahrenheit? (C/F): ").upper()
  
@@ -33,4 +33,5 @@ else:
     
 
     
+
 
